@@ -1,0 +1,89 @@
+subsets:
+all,c_coco,c20,c100,c500,c21-100,c101-500,c500+,i_single,i_multi,i_many,p_name,p_att,p_att+,p_rel,p_rel+,p_verbose,p_attm,p_relm,t_stuff,t_obj,s_small,s_mid,s_large,a20,a100,a200,a21-100,a101-200,a200+,a_color,a_shape,a_material,a_texture,a_state,a_adj,a_noun,a_loc,a_count,a_bad,p_att_rel,d_cocotv,d_notcocotv
+
+all: count=14354(1.0000), mean_mask_iou=0.3109, cum_mask_iou=0.4884
+pred_mask_acc: acc0.5 = 0.3214  acc0.6 = 0.2466  acc0.7 = 0.1766  acc0.8 = 0.1025  acc0.9 = 0.0281  
+c_coco: count=1496(0.1042), mean_mask_iou=0.3623, cum_mask_iou=0.4871
+pred_mask_acc: acc0.5 = 0.3750  acc0.6 = 0.2774  acc0.7 = 0.1905  acc0.8 = 0.0829  acc0.9 = 0.0134  
+c20: count=4672(0.3255), mean_mask_iou=0.4142, cum_mask_iou=0.5708
+pred_mask_acc: acc0.5 = 0.4469  acc0.6 = 0.3508  acc0.7 = 0.2628  acc0.8 = 0.1676  acc0.9 = 0.0520  
+c100: count=8480(0.5908), mean_mask_iou=0.3732, cum_mask_iou=0.5428
+pred_mask_acc: acc0.5 = 0.3965  acc0.6 = 0.3090  acc0.7 = 0.2269  acc0.8 = 0.1379  acc0.9 = 0.0397  
+c500: count=12619(0.8791), mean_mask_iou=0.3277, cum_mask_iou=0.5066
+pred_mask_acc: acc0.5 = 0.3418  acc0.6 = 0.2625  acc0.7 = 0.1890  acc0.8 = 0.1104  acc0.9 = 0.0304  
+c21-100: count=3808(0.2653), mean_mask_iou=0.3230, cum_mask_iou=0.4849
+pred_mask_acc: acc0.5 = 0.3346  acc0.6 = 0.2576  acc0.7 = 0.1828  acc0.8 = 0.1014  acc0.9 = 0.0247  
+c101-500: count=4139(0.2884), mean_mask_iou=0.2345, cum_mask_iou=0.3806
+pred_mask_acc: acc0.5 = 0.2298  acc0.6 = 0.1672  acc0.7 = 0.1114  acc0.8 = 0.0541  acc0.9 = 0.0111  
+c500+: count=1735(0.1209), mean_mask_iou=0.1886, cum_mask_iou=0.2879
+pred_mask_acc: acc0.5 = 0.1735  acc0.6 = 0.1314  acc0.7 = 0.0865  acc0.8 = 0.0450  acc0.9 = 0.0115  
+i_single: count=10252(0.7142), mean_mask_iou=0.3324, cum_mask_iou=0.5073
+pred_mask_acc: acc0.5 = 0.3527  acc0.6 = 0.2772  acc0.7 = 0.2060  acc0.8 = 0.1262  acc0.9 = 0.0359  
+i_multi: count=3505(0.2442), mean_mask_iou=0.2639, cum_mask_iou=0.4397
+pred_mask_acc: acc0.5 = 0.2551  acc0.6 = 0.1809  acc0.7 = 0.1101  acc0.8 = 0.0488  acc0.9 = 0.0097  
+i_many: count=597(0.0416), mean_mask_iou=0.2167, cum_mask_iou=0.3413
+pred_mask_acc: acc0.5 = 0.1742  acc0.6 = 0.1072  acc0.7 = 0.0620  acc0.8 = 0.0101  acc0.9 = 0.0017  
+p_name: count=8738(0.6088), mean_mask_iou=0.3023, cum_mask_iou=0.4856
+pred_mask_acc: acc0.5 = 0.3147  acc0.6 = 0.2438  acc0.7 = 0.1762  acc0.8 = 0.1038  acc0.9 = 0.0269  
+p_att: count=7182(0.5003), mean_mask_iou=0.2995, cum_mask_iou=0.4673
+pred_mask_acc: acc0.5 = 0.3034  acc0.6 = 0.2235  acc0.7 = 0.1512  acc0.8 = 0.0840  acc0.9 = 0.0238  
+p_att+: count=1865(0.1299), mean_mask_iou=0.2994, cum_mask_iou=0.4558
+pred_mask_acc: acc0.5 = 0.2938  acc0.6 = 0.2193  acc0.7 = 0.1442  acc0.8 = 0.0761  acc0.9 = 0.0209  
+p_rel: count=2192(0.1527), mean_mask_iou=0.1838, cum_mask_iou=0.2894
+pred_mask_acc: acc0.5 = 0.1610  acc0.6 = 0.1200  acc0.7 = 0.0830  acc0.8 = 0.0411  acc0.9 = 0.0082  
+p_rel+: count=426(0.0297), mean_mask_iou=0.1835, cum_mask_iou=0.2870
+pred_mask_acc: acc0.5 = 0.1596  acc0.6 = 0.1127  acc0.7 = 0.0751  acc0.8 = 0.0376  acc0.9 = 0.0023  
+p_verbose: count=3325(0.2316), mean_mask_iou=0.3562, cum_mask_iou=0.5223
+pred_mask_acc: acc0.5 = 0.3753  acc0.6 = 0.2866  acc0.7 = 0.2087  acc0.8 = 0.1221  acc0.9 = 0.0385  
+p_attm: count=125(0.0087), mean_mask_iou=0.2810, cum_mask_iou=0.4010
+pred_mask_acc: acc0.5 = 0.2880  acc0.6 = 0.1840  acc0.7 = 0.0880  acc0.8 = 0.0480  acc0.9 = 0.0080  
+p_relm: count=11(0.0008), mean_mask_iou=0.1109, cum_mask_iou=0.1111
+pred_mask_acc: acc0.5 = 0.0000  acc0.6 = 0.0000  acc0.7 = 0.0000  acc0.8 = 0.0000  acc0.9 = 0.0000  
+t_stuff: count=6466(0.4505), mean_mask_iou=0.4099, cum_mask_iou=0.5478
+pred_mask_acc: acc0.5 = 0.4420  acc0.6 = 0.3506  acc0.7 = 0.2648  acc0.8 = 0.1664  acc0.9 = 0.0496  
+t_obj: count=7888(0.5495), mean_mask_iou=0.2298, cum_mask_iou=0.3565
+pred_mask_acc: acc0.5 = 0.2226  acc0.6 = 0.1614  acc0.7 = 0.1043  acc0.8 = 0.0501  acc0.9 = 0.0104  
+s_small: count=3839(0.2675), mean_mask_iou=0.0842, cum_mask_iou=0.0784
+pred_mask_acc: acc0.5 = 0.0453  acc0.6 = 0.0198  acc0.7 = 0.0063  acc0.8 = 0.0005  acc0.9 = 0.0000  
+s_mid: count=7196(0.5013), mean_mask_iou=0.3136, cum_mask_iou=0.3539
+pred_mask_acc: acc0.5 = 0.3117  acc0.6 = 0.2190  acc0.7 = 0.1324  acc0.8 = 0.0496  acc0.9 = 0.0028  
+s_large: count=3319(0.2312), mean_mask_iou=0.5672, cum_mask_iou=0.5880
+pred_mask_acc: acc0.5 = 0.6619  acc0.6 = 0.5688  acc0.7 = 0.4694  acc0.8 = 0.3350  acc0.9 = 0.1154  
+a20: count=4251(0.2962), mean_mask_iou=0.3026, cum_mask_iou=0.4776
+pred_mask_acc: acc0.5 = 0.3056  acc0.6 = 0.2197  acc0.7 = 0.1489  acc0.8 = 0.0807  acc0.9 = 0.0233  
+a100: count=5507(0.3837), mean_mask_iou=0.3083, cum_mask_iou=0.4801
+pred_mask_acc: acc0.5 = 0.3111  acc0.6 = 0.2259  acc0.7 = 0.1545  acc0.8 = 0.0859  acc0.9 = 0.0236  
+a200: count=5885(0.4100), mean_mask_iou=0.3054, cum_mask_iou=0.4781
+pred_mask_acc: acc0.5 = 0.3086  acc0.6 = 0.2238  acc0.7 = 0.1534  acc0.8 = 0.0851  acc0.9 = 0.0238  
+a21-100: count=1256(0.0875), mean_mask_iou=0.3273, cum_mask_iou=0.4865
+pred_mask_acc: acc0.5 = 0.3296  acc0.6 = 0.2468  acc0.7 = 0.1736  acc0.8 = 0.1035  acc0.9 = 0.0247  
+a101-200: count=378(0.0263), mean_mask_iou=0.2635, cum_mask_iou=0.4500
+pred_mask_acc: acc0.5 = 0.2725  acc0.6 = 0.1931  acc0.7 = 0.1376  acc0.8 = 0.0741  acc0.9 = 0.0265  
+a200+: count=8469(0.5900), mean_mask_iou=0.3147, cum_mask_iou=0.4936
+pred_mask_acc: acc0.5 = 0.3304  acc0.6 = 0.2625  acc0.7 = 0.1927  acc0.8 = 0.1145  acc0.9 = 0.0311  
+a_color: count=3729(0.2598), mean_mask_iou=0.3075, cum_mask_iou=0.4822
+pred_mask_acc: acc0.5 = 0.3135  acc0.6 = 0.2269  acc0.7 = 0.1547  acc0.8 = 0.0818  acc0.9 = 0.0217  
+a_shape: count=846(0.0589), mean_mask_iou=0.2734, cum_mask_iou=0.4340
+pred_mask_acc: acc0.5 = 0.2695  acc0.6 = 0.1950  acc0.7 = 0.1265  acc0.8 = 0.0757  acc0.9 = 0.0260  
+a_material: count=666(0.0464), mean_mask_iou=0.3060, cum_mask_iou=0.4453
+pred_mask_acc: acc0.5 = 0.3018  acc0.6 = 0.2072  acc0.7 = 0.1276  acc0.8 = 0.0766  acc0.9 = 0.0150  
+a_texture: count=256(0.0178), mean_mask_iou=0.4378, cum_mask_iou=0.6048
+pred_mask_acc: acc0.5 = 0.4688  acc0.6 = 0.3984  acc0.7 = 0.3203  acc0.8 = 0.2344  acc0.9 = 0.0781  
+a_state: count=365(0.0254), mean_mask_iou=0.2752, cum_mask_iou=0.4534
+pred_mask_acc: acc0.5 = 0.2685  acc0.6 = 0.2000  acc0.7 = 0.1397  acc0.8 = 0.0658  acc0.9 = 0.0192  
+a_adj: count=250(0.0174), mean_mask_iou=0.3174, cum_mask_iou=0.5172
+pred_mask_acc: acc0.5 = 0.3240  acc0.6 = 0.2440  acc0.7 = 0.1800  acc0.8 = 0.1000  acc0.9 = 0.0400  
+a_noun: count=92(0.0064), mean_mask_iou=0.2245, cum_mask_iou=0.3844
+pred_mask_acc: acc0.5 = 0.1848  acc0.6 = 0.1413  acc0.7 = 0.0870  acc0.8 = 0.0435  acc0.9 = 0.0217  
+a_loc: count=63(0.0044), mean_mask_iou=0.1834, cum_mask_iou=0.3603
+pred_mask_acc: acc0.5 = 0.1587  acc0.6 = 0.0952  acc0.7 = 0.0476  acc0.8 = 0.0317  acc0.9 = 0.0159  
+a_count: count=76(0.0053), mean_mask_iou=0.2668, cum_mask_iou=0.3819
+pred_mask_acc: acc0.5 = 0.2895  acc0.6 = 0.2237  acc0.7 = 0.1316  acc0.8 = 0.0263  acc0.9 = 0.0000  
+a_bad: count=27(0.0019), mean_mask_iou=0.3486, cum_mask_iou=0.4396
+pred_mask_acc: acc0.5 = 0.4444  acc0.6 = 0.2222  acc0.7 = 0.2222  acc0.8 = 0.1111  acc0.9 = 0.0000  
+p_att_rel: count=152(0.0106), mean_mask_iou=0.2894, cum_mask_iou=0.4212
+pred_mask_acc: acc0.5 = 0.3092  acc0.6 = 0.2105  acc0.7 = 0.1776  acc0.8 = 0.0987  acc0.9 = 0.0066  
+d_cocotv: count = 0
+
+d_notcocotv: count=14354(1.0000), mean_mask_iou=0.3109, cum_mask_iou=0.4884
+pred_mask_acc: acc0.5 = 0.3214  acc0.6 = 0.2466  acc0.7 = 0.1766  acc0.8 = 0.1025  acc0.9 = 0.0281  

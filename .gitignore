@@ -177,3 +177,5 @@ cython_debug/
 .vscode/
 
 tp2/data/
+tp4/dataset
+tp4/predictions/**/*.png
